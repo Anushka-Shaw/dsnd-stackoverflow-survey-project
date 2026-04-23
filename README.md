@@ -1,5 +1,18 @@
 # Stack Overflow Developer Survey 2025 — What Makes a High-Earning Developer?
+## Data
+The dataset used in this project is the Stack Overflow Annual Developer Survey 2025.
+It is not included in this repository because it exceeds GitHub's file size limit.
 
+To download it:
+1. Go to https://survey.stackoverflow.co/
+2. Click **Download Full Data Set (CSV)**
+3. Unzip the downloaded file
+4. Place `survey_results_public.csv` inside a folder called `stack-overflow-developer-survey-2025` in the project directory
+
+The notebook expects the file at this path:
+```
+stack-overflow-developer-survey-2025/survey_results_public.csv
+```
 ## Project Motivation
 This project analyzes the Stack Overflow Annual Developer Survey 2025 to understand
 what factors drive developer salaries. Following the CRISP-DM data science process,
